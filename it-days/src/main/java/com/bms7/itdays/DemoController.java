@@ -14,7 +14,7 @@ public final class DemoController {
     @RequestMapping("/")
     public String index(Model model) {
         model.addAttribute("name", "BMS");
-        return "index";
+        return "indexx";
     }
 
     @RequestMapping("/demo")
